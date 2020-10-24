@@ -42,27 +42,26 @@
 
 /***************************************************************** */
 
-//Debug each: You are given this function each, but it doesn't work exactly as expected.
-// It should call callback on value, key, and collection respectively for each element of collection,
-// and accept both arrays and objects. Identify everything incorrect with each as it is provided,
-// and modify the function so that it works as expected. Be sure to list all that was incorrect about the original function.
+// //The next block of code hides some syntax errors. Run the code as-is to find the mistakes.
 
-var each = function(collection, callback) {
-  if (Array.isArray(collection)){
-    for (var i = 0; i < collection.length; i++) {
-     collection[i] = callback(collection[i], i, collection);
-    }
-  } else{
-      for(var key in collection){
-          callback(collection[key],key,collection)
-      }
-  }
-  return collection;
-};
+// var launchReady = false;
+// var crewStatus = true;
+// var computerStatus = 'green';
 
-function logArray(element,index,array){
-    console.log(element);
-}
-each([1,2,3,4,5],logArray)
-//each([1,2,3,4,5],printArray);
-//each({name:"Bois",lastName:'Bakhodirov'},printArray);
+// if (crewStatus &&& computerStatus = 'green') {
+//    console.log('Crew & computer cleared.');
+//    launchReady = true;
+// } else {
+//    console.log('WARNING: Crew or computer not ready!');
+//    launchReady = false;
+// }
+
+// if (launchReady) {
+//    console.log("10, 9, 8, 7, 6, 5, 4, 3, 2, 1...");
+//    console.log("Fed parrot...");
+//    console.log("Ignition...");
+//    console.log("Liftoff!');
+// } else {
+//    console.log("Launch scrubbed.");
+// }
+
