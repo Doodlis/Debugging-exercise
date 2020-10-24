@@ -1,0 +1,19 @@
+{
+  "name": "debugging-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "debugger.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmurray1105/Debugging-exercise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cmurray1105/Debugging-exercise/issues"
+  },
+  "homepage": "https://github.com/cmurray1105/Debugging-exercise#readme"
+}
